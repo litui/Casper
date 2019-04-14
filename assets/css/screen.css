@@ -91,7 +91,7 @@ body {
 /* 3. Special Template Styles
 /* ---------------------------------------------------------- */
 
-@media (min-width: 900px) {
+/* @media (min-width: 900px) {
     .home-template .post-feed,
     .tag-template .post-feed,
     .author-template .post-feed {
@@ -102,7 +102,7 @@ body {
         position: relative;
         top: -70px;
     }
-}
+} */
 
 
 /* 4. Site Header
@@ -640,10 +640,10 @@ make sure this only happens on large viewports / desktop-ish devices.
         padding: 0 40px 30px;
     }
 }
-
+/* 
 .home-template .site-header:after {
     display: none;
-}
+} */
 
 
 /* Adjust some margins for smaller screens */
@@ -661,6 +661,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 /* 7. Single Post
 /* ---------------------------------------------------------- */
 
+.home-template .site-main,
 .post-template .site-main,
 .page-template .site-main {
     padding-bottom: 4vw;
